@@ -1,13 +1,25 @@
-# CA284 Systems Programming
+# 2021-ca284-sorting
 
 ## Introduction
 
-This repo contains the starter layout for the CA284 Systems Programming project worth 50%.  Pay attention to the instructions here.
+This repo was a project for one of my modules in university worth 50% of my grade. This took me approximately two weeks and I had gone through many iterations before resulting in something I was happy with. The grade I got for this was 90% so I am quite happy with how I did.
 
-1. Fork this repository.
-2. download (clone) the forked repository to your computer
-3. start working on the project.
+## Goal
 
+The main goal of the project was to create a program to sort large amount of data using different algorithms and recording how long it would take for different algorithms to complete this task.
 
+## Usage
 
-You might want to set notifications and/or other "watch" features on the School of Computing Gitlab to keep abrest of any changes/additions I make to this original repository.  You will then be able to keep your forked version in sync with mine.  Note: _do not clone my repository, fork it_.
+### To create dataset
+`rng [n]`  
+Where n is the number of random numbers to generate
+
+### To sort the data and output time taken
+```
+Usage: sort -s/m/r [filename]
+Options:
+-h               Print help and exit.
+-s               Use selection sort.
+-m               Use merge sort.
+-r               Use radix sort.
+```
